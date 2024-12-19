@@ -1,0 +1,65 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-close-modal {
+  font-size: 24px;
+  color: #3f2b96;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.modal-name,
+.modal-email,
+.modal-address {
+  margin-top: 20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.btn-submit-order {
+  display: flex;
+  margin: 40px auto auto;
+  width: 40%;
+  justify-content: center;
+}
+
+.Toastify__toast-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
